@@ -1,0 +1,97 @@
+html, body {
+	background-color: #298EEA;
+	font-family: 'Roboto', helvetica, sans-serif;
+}
+
+.logo {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.logo img {
+	height: 35px;
+	margin: auto;
+}
+
+.middle-form {
+	margin: auto;
+	background-color: #fff;
+	width: 400px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border: none;
+	border-radius: 3px;
+	text-align: center;
+}
+
+fieldset {
+	border: none;
+}
+
+/*can't get sign up font-weight correct*/
+legend {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-weight: 300;
+	font-size: 35px;
+}
+
+input {
+	width: 320px;
+	border: solid 2px #E7E7E7;
+	padding: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 22px;
+}
+
+label {
+	float: left;
+	padding-left: 10px;
+}
+
+/*button doesn't seem to be 320px wide*/
+button {
+	width: 354px;
+	height: 55px;
+	padding: 15px;
+	border: solid 2px #E7E7E7;
+	color: #fff;
+	background-color: #15CD72;
+	border-radius: 3px;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+button:hover[type='submit'] {
+	background-color: #0CB863;
+}
+
+.forgot-link {
+	color: #777777;
+	text-align: center;
+	display: block;
+	margin: auto;
+	padding-bottom: 25px;
+	font-size: 14px;
+}
+
+a .forgot-link {
+	margin: auto;
+}
+
+/*how do you get the hover color of a link with chrome plug in?*/
+a:hover .forgot-link {
+	color: ;
+}
+
+h4 {
+	color: #fff;
+	text-align: center;
+}
+
+h4 a {
+	color: #fff;
+}
