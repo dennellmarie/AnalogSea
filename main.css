@@ -1,4 +1,4 @@
-html {
+html, body {
 	background-color: #298EEA;
 	font-family: 'Roboto', helvetica, sans-serif;
 }
@@ -22,6 +22,7 @@ html {
 	padding-right: 40px;
 	border: none;
 	border-radius: 3px;
+	text-align: center;
 }
 
 fieldset {
@@ -29,10 +30,12 @@ fieldset {
 }
 
 /*can't get sign up font-weight correct*/
-fieldset h1 {
+legend {
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-weight: 300;
+	font-size: 35px;
 }
 
 input {
@@ -44,9 +47,14 @@ input {
 	font-size: 22px;
 }
 
+label {
+	float: left;
+	padding-left: 10px;
+}
+
 /*button doesn't seem to be 320px wide*/
 button {
-	width: 320px;
+	width: 354px;
 	height: 55px;
 	padding: 15px;
 	border: solid 2px #E7E7E7;
@@ -55,6 +63,10 @@ button {
 	border-radius: 3px;
 	font-size: 22px;
 	margin-bottom: 10px;
+}
+
+button:hover[type='submit'] {
+	background-color: #0CB863;
 }
 
 .forgot-link {
